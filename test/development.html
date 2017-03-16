@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Inconsolata|Space+Mono|Source+Code+Pro" rel="stylesheet">
+    <title>ng-react</title>
+    <style>
+      body, #root {
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        left: 0;
+        top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <iframe id="slave" style="display:none;" src="/angular/index.html"></iframe>
+    <div id="root"></div>
+    <script src="/master.bundle.js"></script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "presets": [
+    "es2015",
+    "stage-0",
+    "react",
+    "react-hmre"
+  ],
+  "plugins": [
+    "babel-plugin-root-import",
+    "react-html-attrs",
+    "transform-es2015-destructuring",
+    "transform-object-rest-spread",
+    "syntax-object-rest-spread"
+  ]
+}
